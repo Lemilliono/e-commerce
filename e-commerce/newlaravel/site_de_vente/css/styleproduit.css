@@ -1,0 +1,48 @@
+
+.product{
+text-align: center;
+}
+.img_product{
+position: relative;
+right: 500px;
+bottom: 100px;
+}
+.infos_product{
+position:relative;
+bottom: 480px;
+font-weight: bold;
+font-size: 35px;
+font-family: 'FuturaPT-Demi',sans-serif;
+color:rgb(14, 224, 123);
+}
+.description_product{
+position: relative;
+bottom: 480px;
+color:rgb(0, 55, 145);
+font-family: 'FuturaPT-Demi',sans-serif;
+font-weight: bold;
+font-size: 16px;
+}
+.button{
+font-family: 'Quicksand', sans-serif;
+font-size:  20px;
+position: relative;
+bottom: 450px;
+background-color:rgb(14, 224, 123);
+}
+
+.product_type{
+font-family: 'FuturaPT-Demi',sans-serif;
+color:rgb(14, 224, 123);
+position: relative;
+font-size: 28px;
+bottom: 180px;
+right: 750px;
+}
+
+.product_stock{
+font-family : Arial 15px;
+color : rgb(14, 224, 123);
+position:relative;
+left:550px;
+}

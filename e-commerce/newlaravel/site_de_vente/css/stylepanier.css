@@ -1,0 +1,43 @@
+.center {
+    display:flex;
+    flex-wrap: wrap;
+    width: 280px;
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
+   
+
+body {
+    background: #ececec; 
+}
+
+.Title{
+    font-size: 45px;
+    text-align: Center;
+    margin: 4%;
+    color:#385170;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+button{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #040542; /* Green */
+    border: none;
+    color: rgb(155, 164, 212);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    
+    font-size: 16px;
+}
+button:hover{
+    background-color:black;
+}

@@ -1,0 +1,86 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+input{
+width: 305px;
+height: 18.52px;
+}
+h1{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
+
+
+.PS4{
+color:#003791;
+}
+.PS5{
+color: #045893;
+}
+.xbox{
+color: #107C10;
+}
+.switch{
+color: #e60012;
+}
+
+h2{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    color:white;
+    font-size:  24px;
+}
+
+h3{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  color:white;
+  font-size:  24px;
+}
+h4{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  color:white;
+  font-size:  24px;
+}
+
+body{
+      background-color: rgb(34,44,49);
+}
+.container{
+justify-content: space-between;
+align-items: center;
+background-color:#003791;
+display: flex;
+padding: 10px;
+}
+.container-2{
+justify-content: center;
+align-items: center;
+padding: 10px;
+display: flex;
+background-color: #045893;
+}
+.container-3{
+justify-content: center;
+align-items: center;
+padding: 10px;
+background-color: #107C10;
+display: flex;
+}
+.container-4{
+justify-content: center;
+align-items: center;
+padding: 10px;
+background-color: #e60012;
+display: flex;
+}
+
+.game{
+border:none;
+display:flex;
+flex-direction: column;
+text-align: center;
+}
+

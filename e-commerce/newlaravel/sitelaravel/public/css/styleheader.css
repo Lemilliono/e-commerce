@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+    
+body{
+    background-color: rgb(34,44,49);
+}
+a{
+    text-decoration:none;
+    font-weight: bold;
+    color:rgb(14, 224, 123);
+    }
+
+.header_menu{
+    background-color:rgb(47,61,69);
+    text-align: center;
+}
+.name{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    float:left;
+    font-size: 25px;
+   }
+.links{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    text-align:center;
+    font-size: 25px;
+}
+.username{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    float:right;
+    font-size: 25px;
+}
+.shop{
+padding-right:30px;
+padding-left:30px;
+}

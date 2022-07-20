@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+
+    <head>
+      <title>Forgot password</title>
+      <link rel="stylesheet" href="{{asset ('css/stylereset.css') }}">
+      <link rel="stylesheet" href="{{asset ('css/stylefooter.css') }}">
+      <link rel="stylesheet" href="{{asset ('css/styleheader.css') }}">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:300,500">
+      </head>
+  
+      <body>
+      <nav class="header_menu">
+          <div class="name">
+                  <a href=>MICROUMANIA</a>
+          </div>
+          <div class="username">
+              <a href="{{ route('register') }}">REGISTER</a>
+          </div>
+          <div class="links">
+              <a href=>NEWS</a>
+              <a class="shop" href=>SHOP</a>
+              <a href=>CART</a>
+          </div>
+          </nav>
+
+        <div class="forgottext">
+          <h1>Forgot your password ? </h1>
+          <br>
+          <p>If you have forgot you password, please type your e-mail.</p>
+          <p> You will receive a confirmation mail and a link to create your new password.</p>
+        </div>
+        
+        <div class="container-2">
+            <form class="forgot_password">
+                  <label for="email">E-mail</label>
+                  <input type="email" id="email" placeholder="E-mail">
+                  <br>
+                  <input type="button"
+                  value="Envoyer le mail">
+            </form>
+        </div>
+            
+
+      <footer>
+        <a href="https://www.facebook.com/ecole.etna" title="Facebook">
+            <img alt="Facebook" src="images/logos/facebook-logo.jpg" width="50" height="50" />
+        </a>
+        <a href="https://twitter.com/etna_io" title="Twitter">
+            <img alt="Twitter" src="images/logos/twitter-logo.jpg" width="50" height="50" />
+        </a>
+    
+      </footer>
+  </body>
